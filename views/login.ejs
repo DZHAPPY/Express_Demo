@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    form{
+        text-align: center;
+    }
+
+    input{
+        height: 20px;
+        width: 200px;
+        margin: 8px;
+        padding: 5px;
+    }
+    
+    .btn_login{
+        background-color: skyblue;
+        height: 30px;
+        width: 100px;
+    }
+</style>
+<body>
+    <h1>欢迎光临</h1>
+    <hr />
+    <form action="/login" method="post" >
+        <div>
+            <input type="text" name="username" placeholder="用户名" />
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="密码" />
+        </div>
+        <div>
+            <input type="submit" value="登录" class="btn_login"/>
+        </div>
+    </form>
+</body>
+</html>
